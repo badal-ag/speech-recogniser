@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background: #1769ba;
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .mic-icon {
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 200ms ease;
+  }
+  
+  .mic-icon path {
+    transition: 250ms ease;
+  }
+  
+  .mic-icon:hover path {
+    fill: #3A6284;
+  }
+  
+  .mic-icon:active {
+    transform: scale(0.9);
+  }
+  
+  .mic-icon:active path {
+    fill: #1A5383;
+  }
+  
+  #resultElement {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+  }
+  
+  .active-mic path {
+    fill: #ffffff;
+  }
+  
